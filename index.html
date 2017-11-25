@@ -15,6 +15,7 @@
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
     <title>Differences App</title>
 
     
@@ -28,11 +29,11 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white full-width-bloc bg-blurred-hero-image d-bloc" id="bloc-0">
+<div class="bloc bgc-white full-width-bloc bg-blurred-hero-image d-bloc " id="bloc-0">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/complete-hero-image@1x.png" class="image-resize-mode center-block img-responsive" srcset="img/complete-hero-image@2x.png 2x" />
+				<img src="img/lazyload-ph.png" data-src="img/complete-hero-image@1x.png" class="image-resize-mode center-block img-responsive lazyload" srcset="img/complete-hero-image@2x.png 2x" />
 			</div>
 		</div>
 	</div>
@@ -53,7 +54,7 @@
 <!-- bloc-2 -->
 <div class="bloc bgc-white l-bloc none" id="bloc-2">
 	<div class="container bloc-md">
-		<div class="row ">
+		<div class="row">
 			<div class="col-sm-6">
 				<h2 class="mg-lg mb-bloc-text-vc">
 					Always nearby
@@ -64,7 +65,7 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="center-block blocsapp-device blocsapp-device-mb mb-space-grey">
-					<img src="img/mini-screenshot-always-nearby.png" class="img-responsive" />
+					<img src="img/lazyload-ph.png" data-src="img/mini-screenshot-always-nearby.png" class="img-responsive lazyload" />
 				</div>
 			</div>
 		</div>
@@ -78,7 +79,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="center-block blocsapp-device blocsapp-device-mb mb-space-grey">
-					<img src="img/mini-screenshot-live-diffing.png" class="img-responsive" />
+					<img src="img/lazyload-ph.png" data-src="img/mini-screenshot-live-diffing.png" class="img-responsive lazyload" />
 				</div>
 			</div>
 			<div class="col-sm-6">
